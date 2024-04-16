@@ -33,6 +33,6 @@
   height: 270px;
 }
 
-.col div {
-    background-color: blue;
+.btn-color {
+    color: white;
 }

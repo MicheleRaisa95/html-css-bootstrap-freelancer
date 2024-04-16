@@ -9,7 +9,6 @@
 .star-whith-lines::after {
     content: "";
     position: absolute;
-    top: 40%;
     width: 20%;
     height: 2px;
     background-color: currentColor;
