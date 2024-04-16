@@ -12,7 +12,7 @@
     top: 40%;
     width: 20%;
     height: 2px;
- background-color: white;
+    background-color: currentColor;
     transform: translateY(-50%);
 }
 
@@ -33,3 +33,7 @@
     margin: 0 10px;
     margin-bottom: 10px;
 }
+
+.star-whith-lines::before:nth-child(even) {
+    background-color: black
+  }
