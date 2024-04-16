@@ -10,25 +10,46 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <header class="mr-bg-drak-blue">
-        <div class="container text-center">
-            <div class="row align-items-center">
-                <div class="col text-white">
-                    logo
+    <header class="mr-bg-drak-blue py-3 text-uppercase">
+            <nav class="navbar navbar-expand-md" data-bs-theme="dark">
+                <div class="container">
+                  <a class="navbar-brand" href="#">
+                    <h2>strat bootstrap</h2>
+                </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">portfolio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" href="#">about</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" href="#">contact</a>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
-                <div class="col text-white">
-                    menu
-                </div>
-            </div>
+              </nav>
         </div>
     </header>
     <main>
-        <div class="container-fluid mr-bg-green text-center mr-height-300">
-            <div class="row">
-                <div class="col-12">immagine</div>
-                <div class="col-12">testo</div>
+        <section id="jumbo" class="mr-bg-green">
+            <div class="container py-4">
+                <div class="row justify-content-center">
+                   <div class="col-8 text-center">
+                   <div>imamgine</div>
+                   <div>titolo</div>
+                   <div>stellina</div>
+                   <div>testo</div>
+
+                   </div>
+                </div>
             </div>
-        </div>
+        </section>
         <div class="container">
             <div class="row gx-1">
                 <div class="col-12 border text-center mb-2 mr-height-200 ">
@@ -104,7 +125,7 @@
            </div>
          </div>
         </div>
-<div class="container-fluid mr-bg-dark-blue mr-height-100 text-white text-center">
+<div class="container-fluid mr-bg-drak-blue mr-height-100 text-white text-center">
 <div class="row">
     <div class="col-12">
         testo
@@ -112,5 +133,7 @@
 </div>
 </div>
     </footer>
+    <!-- CDN BOOTSTARP-JAVA -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
