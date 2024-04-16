@@ -1,0 +1,35 @@
+.star-whith-lines {
+    position: relative;
+    font-size: 24px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.star-whith-lines::before,
+.star-whith-lines::after {
+    content: "";
+    position: absolute;
+    top: 40%;
+    width: 20%;
+    height: 2px;
+ background-color: white;
+    transform: translateY(-50%);
+}
+
+.star-whith-lines::before {
+    left: 0;
+}
+
+.star-whith-lines::after {
+    right: 0;
+}
+
+.star-whith-lines::before,
+.star-whith-lines::after,
+.star-whith-lines i {
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    margin: 0 10px;
+    margin-bottom: 10px;
+}
