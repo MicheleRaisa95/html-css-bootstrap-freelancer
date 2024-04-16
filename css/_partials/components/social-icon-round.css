@@ -1,0 +1,17 @@
+.mr-social-round li {
+    display: inline-block;
+    list-style-type: none;
+    text-align: center;
+    
+}
+
+.icon-font {
+  border: 1px solid white;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+
+.mr-social-round {
+    padding-left: 0;
+}

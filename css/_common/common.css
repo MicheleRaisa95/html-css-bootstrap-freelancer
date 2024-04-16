@@ -15,21 +15,15 @@
 
 /*HEIGHT*/
 
-.mr-height-100 {
-    height: 100px;
-}
-
-.mr-height-200 {
-    height: 200px;
-}
-
-
-.mr-height-300 {
-    height: 300px;
-}
-
 .mr-img {
     width: 230px;
   height: 270px;
+}
+
+/*text decoration*/
+
+.mr-link-decoration {
+    text-decoration: none;
+    color: #1abc9c;
 }
 
